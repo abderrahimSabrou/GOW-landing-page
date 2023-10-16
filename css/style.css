@@ -345,7 +345,7 @@ body {
 }
 
 .journey-section {
-  height: 1000px;
+  height: 1200px;
   background-color: #0f0f0f;
   padding: 60px 0;
   color: #fff;
@@ -877,5 +877,178 @@ body {
     border-radius: 0;
     margin: 0;
     margin-bottom: 20px;
+  }
+  .journey-section h1.journey-section-title {
+    font-size: 2rem;
+  }
+  .journey-section p.journey-section-title-text {
+    width: 90%;
+  }
+  .journey-section .btns-container {
+    width: auto;
+    border-radius: 0;
+    overflow-x: auto;
+  }
+  .journey-section .btns-container > button {
+    flex: none;
+    width: 120px;
+  }
+  .journey-section .content {
+    width: 100%;
+    left: 0;
+  }
+  .journey-section .fanstatic-content .fanstatic-title {
+    font-size: 2rem;
+  }
+  .journey-section .fanstatic-content p.fanstatic-text {
+    font-size: 0.9rem;
+    width: 90%;
+  }
+  .journey-section .fanstatic-content .fanstatic-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .journey-section .fanstatic-content .fanstatic-flex .image-container {
+    width: 100%;
+  }
+  .journey-section .fanstatic-content .fanstatic-flex .text {
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+  .journey-section .father-content .father-title {
+    font-size: 2rem;
+  }
+  .journey-section .father-content p.father-text {
+    font-size: 0.9rem;
+    width: 90%;
+  }
+  .journey-section .father-content .father-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .journey-section .father-content .father-flex .image-container {
+    width: 100%;
+  }
+  .journey-section .father-content .father-flex .text {
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+  .journey-section .combat-content .combat-title {
+    font-size: 2rem;
+  }
+  .journey-section .combat-content p.combat-text {
+    font-size: 0.9rem;
+    width: 90%;
+  }
+  .journey-section .combat-content .combat-flex {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .journey-section .combat-content .combat-flex .image-container {
+    width: 100%;
+  }
+  .journey-section .combat-content .combat-flex .text {
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+  .journey-section .exploration-content .exploration-title {
+    font-size: 2rem;
+  }
+  .journey-section .exploration-content p.exploration-text {
+    font-size: 0.9rem;
+    width: 90%;
+  }
+  .journey-section .exploration-content .exploration-flex {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .journey-section .exploration-content .exploration-flex .image-container {
+    width: 100%;
+  }
+  .journey-section .exploration-content .exploration-flex .text {
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+  .journey-section .universe-content .universe-title {
+    font-size: 2rem;
+  }
+  .journey-section .universe-content p.universe-text {
+    font-size: 0.9rem;
+    width: 90%;
+  }
+  .journey-section .universe-content .universe-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .journey-section .universe-content .universe-flex .image-container {
+    width: 100%;
+  }
+  .journey-section .universe-content .universe-flex .text {
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+  .journey-section .creatures-content .creatures-title {
+    font-size: 2rem;
+  }
+  .journey-section .creatures-content p.creatures-text {
+    font-size: 0.9rem;
+    width: 90%;
+  }
+  .journey-section .creatures-content .creatures-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .journey-section .creatures-content .creatures-flex .image-container-1 {
+    margin-top: 15px;
+    width: 100%;
+    height: 300px;
+  }
+  .journey-section .creatures-content .creatures-flex .image-container-2 {
+    width: 100%;
+    height: 300px;
+  }
+  .journey-section .creatures-content p.quote-text {
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+  .journey-section .score-content .score-title {
+    font-size: 2rem;
+  }
+  .journey-section .score-content p.score-text {
+    font-size: 0.9rem;
+    width: 90%;
+  }
+  .journey-section .score-content .score-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .journey-section .score-content .score-flex .image-container {
+    width: 100%;
+  }
+  .journey-section .score-content .score-flex .text {
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
   }
 }

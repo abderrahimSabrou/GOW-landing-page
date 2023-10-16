@@ -150,4 +150,246 @@
       margin-bottom: 20px;
     }
   }
+
+  // Start journy section
+  .journey-section {
+    h1.journey-section-title {
+      font-size: 2rem;
+    }
+
+    p.journey-section-title-text {
+      width: 90%;
+    }
+
+    .btns-container {
+      width: auto;
+      border-radius: 0;
+      overflow-x: auto;
+
+      // display: block;
+
+      > button {
+        flex: none;
+        width: 120px;
+      }
+    }
+
+    .content {
+      width: 100%;
+      left: 0;
+    }
+
+    // fanstatic-content
+    .fanstatic-content {
+      .fanstatic-title {
+        font-size: 2rem;
+      }
+
+      p.fanstatic-text {
+        font-size: 0.9rem;
+        width: 90%;
+      }
+
+      .fanstatic-flex {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .image-container {
+          width: 100%;
+        }
+
+        .text {
+          margin-top: 40px;
+          width: 100%;
+          text-align: center;
+          padding: 10px;
+        }
+      }
+    }
+
+    // Father and son content
+    .father-content {
+      .father-title {
+        font-size: 2rem;
+      }
+
+      p.father-text {
+        font-size: 0.9rem;
+        width: 90%;
+      }
+
+      .father-flex {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .image-container {
+          width: 100%;
+        }
+
+        .text {
+          margin-top: 40px;
+          width: 100%;
+          text-align: center;
+          padding: 10px;
+        }
+      }
+    }
+
+    // Combat content
+    .combat-content {
+      .combat-title {
+        font-size: 2rem;
+      }
+
+      p.combat-text {
+        font-size: 0.9rem;
+        width: 90%;
+      }
+
+      .combat-flex {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+
+        .image-container {
+          width: 100%;
+        }
+
+        .text {
+          margin-top: 40px;
+          width: 100%;
+          text-align: center;
+          padding: 10px;
+        }
+      }
+    }
+
+    // exploration centtent
+    .exploration-content {
+      .exploration-title {
+        font-size: 2rem;
+      }
+
+      p.exploration-text {
+        font-size: 0.9rem;
+        width: 90%;
+      }
+
+      .exploration-flex {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+
+        .image-container {
+          width: 100%;
+        }
+
+        .text {
+          margin-top: 40px;
+          width: 100%;
+          text-align: center;
+          padding: 10px;
+        }
+      }
+    }
+
+    // universe Content
+    .universe-content {
+      .universe-title {
+        font-size: 2rem;
+      }
+
+      p.universe-text {
+        font-size: 0.9rem;
+        width: 90%;
+      }
+
+      .universe-flex {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .image-container {
+          width: 100%;
+        }
+
+        .text {
+          margin-top: 40px;
+          width: 100%;
+          text-align: center;
+          padding: 10px;
+        }
+      }
+    }
+
+    // creatures Content
+    .creatures-content {
+      .creatures-title {
+        font-size: 2rem;
+      }
+
+      p.creatures-text {
+        font-size: 0.9rem;
+        width: 90%;
+      }
+
+      .creatures-flex {
+        // border: 1px solid red;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+
+        .image-container-1 {
+          margin-top: 15px;
+          // flex: ;
+          width: 100%;
+          height: 300px;
+        }
+
+        .image-container-2 {
+          width: 100%;
+          height: 300px;
+        }
+      }
+
+      p.quote-text {
+        margin-top: 40px;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+      }
+    }
+
+    // Score Content
+    .score-content {
+      .score-title {
+        font-size: 2rem;
+      }
+
+      p.score-text {
+        font-size: 0.9rem;
+        width: 90%;
+      }
+
+      .score-flex {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .image-container {
+          width: 100%;
+        }
+
+        .text {
+          margin-top: 40px;
+          width: 100%;
+          text-align: center;
+          padding: 10px;
+        }
+      }
+    }
+  }
 }
