@@ -1,0 +1,153 @@
+// Media Query for
+@media only screen and (max-width: 768px) {
+  // start header
+  .header {
+    .container {
+      width: auto;
+      // border: 1px solid red;
+
+      .navbar {
+        display: none;
+      }
+    }
+  }
+
+  // Hero section
+  .hero-section {
+    .hero-container {
+      width: auto;
+
+      h1 {
+        // border: 1px solid red;
+        text-align: center;
+      }
+      .hero-text {
+        // border: 1px solid red;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .review-container {
+        width: 80%;
+        margin: auto;
+      }
+
+      .genre {
+        width: 100%;
+        text-align: center;
+        border-radius: none;
+        margin-top: 30px;
+        margin-bottom: 20px;
+      }
+
+      .cta-container {
+        width: 80%;
+        margin: auto;
+
+        .play-btn-container {
+          .play-button {
+            img {
+              width: 40px;
+            }
+          }
+
+          .cta-trailer {
+            margin-top: 0px;
+          }
+        }
+
+        .buy-btn {
+          font-size: 1.1rem;
+          padding: 15px;
+        }
+      }
+    }
+  }
+
+  .bars {
+    cursor: pointer;
+    display: block;
+    z-index: 12;
+  }
+
+  // Start Story section
+  .story-section {
+    .story-text-container {
+      width: 100%;
+      padding: 30px 20px;
+      // padding-top: 30px;
+
+      h1 {
+        font-size: 2rem;
+        text-align: center;
+      }
+
+      p {
+      }
+    }
+    .story-img-container {
+      display: none;
+    }
+  }
+
+  // Start Games section
+  .games-section {
+    // border: 1px solid red;
+    .games-container {
+      margin-top: 50px;
+
+      .games-title {
+        // border: 1px solid red;
+        font-size: 2rem;
+        margin: 20px auto;
+      }
+
+      .games-series {
+        width: 100%;
+        margin: 50px auto auto;
+
+        > div {
+          a {
+            div {
+              padding-left: 5px;
+              padding-right: 5px;
+              h2.title {
+                font-size: 1.2rem;
+              }
+
+              p {
+                text-align: right;
+                font-size: 0.8rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Start "COW on pc" section
+  .pc-section {
+    // padding: 10px;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+
+    .pc-video-container {
+      margin-top: 20px;
+      iframe {
+        width: 400px;
+      }
+    }
+
+    .pc-details-container {
+      width: 100%;
+      border-radius: 0;
+      margin: 0;
+      margin-bottom: 20px;
+    }
+  }
+}
