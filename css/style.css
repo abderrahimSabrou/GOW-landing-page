@@ -345,11 +345,11 @@ body {
 }
 
 .journey-section {
-  height: 2000px;
-  border: 1px solid red;
+  height: 1000px;
   background-color: #0f0f0f;
   padding: 60px 0;
   color: #fff;
+  position: relative;
 }
 .journey-section h1.journey-section-title {
   font-family: godOfWarFont;
@@ -389,6 +389,389 @@ body {
 .journey-section .btns-container > button:hover {
   background-color: #0059ec;
   color: #ffffff;
+}
+.journey-section .content {
+  width: 80%;
+  position: absolute;
+  top: 400px;
+  left: 10%;
+  padding: 10px;
+  background-color: #0f0f0f;
+  transition: opacity 0.5s ease-in-out;
+}
+.journey-section .fanstatic-content .fanstatic-title {
+  text-align: center;
+  font-weight: 300;
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.journey-section .fanstatic-content p.fanstatic-text {
+  text-align: center;
+  width: 650px;
+  margin: auto;
+  font-size: 1.1rem;
+  color: #a3a3a3;
+  margin-bottom: 30px;
+}
+.journey-section .fanstatic-content .fanstatic-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.journey-section .fanstatic-content .fanstatic-flex .image-container {
+  background: url(../images/fantastic-photo.webp);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  margin-top: 15px;
+  width: 45%;
+  height: 230px;
+}
+.journey-section .fanstatic-content .fanstatic-flex .text {
+  flex: 1;
+  padding: 10px 10px 10px 60px;
+}
+.journey-section .fanstatic-content .fanstatic-flex .text h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.journey-section .fanstatic-content .fanstatic-flex .text p {
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.journey-section .fanstatic-content .fanstatic-flex .text p.quote-text {
+  font-style: italic;
+  color: #a3a3a3;
+}
+.journey-section .fanstatic-content .fanstatic-flex .text .author {
+  font-weight: bold;
+  font-style: italic;
+}
+.journey-section .father-content .father-title {
+  text-align: center;
+  font-weight: 300;
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.journey-section .father-content p.father-text {
+  text-align: center;
+  width: 650px;
+  margin: auto;
+  font-size: 1.1rem;
+  color: #a3a3a3;
+  margin-bottom: 30px;
+}
+.journey-section .father-content .father-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.journey-section .father-content .father-flex .image-container {
+  background: url(../images/father-and-son.webp);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  margin-top: 15px;
+  width: 45%;
+  height: 230px;
+}
+.journey-section .father-content .father-flex .text {
+  flex: 1;
+  padding: 10px 10px 10px 60px;
+}
+.journey-section .father-content .father-flex .text h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.journey-section .father-content .father-flex .text p {
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.journey-section .father-content .father-flex .text p.quote-text {
+  font-style: italic;
+  color: #a3a3a3;
+}
+.journey-section .father-content .father-flex .text p.quote-text-2 {
+  margin-top: 30px;
+  font-style: italic;
+  color: #a3a3a3;
+}
+.journey-section .father-content .father-flex .text .author {
+  font-weight: bold;
+  font-style: italic;
+}
+.journey-section .combat-content .combat-title {
+  text-align: center;
+  font-weight: 300;
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.journey-section .combat-content p.combat-text {
+  text-align: center;
+  width: 650px;
+  margin: auto;
+  font-size: 1.1rem;
+  color: #a3a3a3;
+  margin-bottom: 30px;
+}
+.journey-section .combat-content .combat-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.journey-section .combat-content .combat-flex .image-container {
+  background: url(../images/father-and-son.webp);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  margin-top: 15px;
+  width: 45%;
+  height: 230px;
+}
+.journey-section .combat-content .combat-flex .text {
+  flex: 1;
+  padding: 10px 10px 10px 60px;
+}
+.journey-section .combat-content .combat-flex .text h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.journey-section .combat-content .combat-flex .text p {
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.journey-section .combat-content .combat-flex .text p.quote-text {
+  font-style: italic;
+  color: #a3a3a3;
+}
+.journey-section .combat-content .combat-flex .text p.quote-text-2 {
+  margin-top: 30px;
+  font-style: italic;
+  color: #a3a3a3;
+}
+.journey-section .combat-content .combat-flex .text .author {
+  font-weight: bold;
+  font-style: italic;
+}
+.journey-section .exploration-content .exploration-title {
+  text-align: center;
+  font-weight: 300;
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.journey-section .exploration-content p.exploration-text {
+  text-align: center;
+  width: 650px;
+  margin: auto;
+  font-size: 1.1rem;
+  color: #a3a3a3;
+  margin-bottom: 30px;
+}
+.journey-section .exploration-content .exploration-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.journey-section .exploration-content .exploration-flex .image-container {
+  background: url(../images/exploration-photo.webp);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  margin-top: 15px;
+  width: 45%;
+  height: 230px;
+}
+.journey-section .exploration-content .exploration-flex .text {
+  flex: 1;
+  padding: 10px 10px 10px 60px;
+}
+.journey-section .exploration-content .exploration-flex .text h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.journey-section .exploration-content .exploration-flex .text p {
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.journey-section .exploration-content .exploration-flex .text p.quote-text {
+  font-style: italic;
+  color: #a3a3a3;
+}
+.journey-section .exploration-content .exploration-flex .text p.quote-text-2 {
+  margin-top: 30px;
+  font-style: italic;
+  color: #a3a3a3;
+}
+.journey-section .exploration-content .exploration-flex .text .author {
+  font-weight: bold;
+  font-style: italic;
+}
+.journey-section .universe-content .universe-title {
+  text-align: center;
+  font-weight: 300;
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.journey-section .universe-content p.universe-text {
+  text-align: center;
+  width: 650px;
+  margin: auto;
+  font-size: 1.1rem;
+  color: #a3a3a3;
+  margin-bottom: 30px;
+}
+.journey-section .universe-content .universe-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.journey-section .universe-content .universe-flex .image-container {
+  background: url(../images/exploration-photo.webp);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  margin-top: 15px;
+  width: 45%;
+  height: 230px;
+}
+.journey-section .universe-content .universe-flex .text {
+  flex: 1;
+  padding: 10px 10px 10px 60px;
+}
+.journey-section .universe-content .universe-flex .text h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.journey-section .universe-content .universe-flex .text p {
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.journey-section .universe-content .universe-flex .text p.quote-text {
+  font-style: italic;
+  color: #a3a3a3;
+}
+.journey-section .universe-content .universe-flex .text p.quote-text-2 {
+  margin-top: 30px;
+  font-style: italic;
+  color: #a3a3a3;
+}
+.journey-section .universe-content .universe-flex .text .author {
+  font-weight: bold;
+  font-style: italic;
+}
+.journey-section .creatures-content .creatures-title {
+  text-align: center;
+  font-weight: 300;
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.journey-section .creatures-content p.creatures-text {
+  text-align: center;
+  width: 650px;
+  margin: auto;
+  font-size: 1.1rem;
+  color: #a3a3a3;
+  margin-bottom: 30px;
+}
+.journey-section .creatures-content .creatures-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.journey-section .creatures-content .creatures-flex .image-container-1 {
+  background: url(../images/creatures-photo-1.jfif);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  margin-top: 15px;
+  width: 48%;
+  height: 300px;
+}
+.journey-section .creatures-content .creatures-flex .image-container-2 {
+  background: url(../images/creatures-photo-2.webp);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  margin-top: 15px;
+  width: 48%;
+  height: 300px;
+}
+.journey-section .creatures-content p.quote-text {
+  font-style: italic;
+  color: #a3a3a3;
+  text-align: center;
+  width: 550px;
+  margin: auto;
+}
+.journey-section .creatures-content .author {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+.journey-section .score-content .score-title {
+  text-align: center;
+  font-weight: 300;
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.journey-section .score-content p.score-text {
+  text-align: center;
+  width: 650px;
+  margin: auto;
+  font-size: 1.1rem;
+  color: #a3a3a3;
+  margin-bottom: 30px;
+}
+.journey-section .score-content .score-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.journey-section .score-content .score-flex .image-container {
+  background: url(../images/score-photo.webp);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  margin-top: 15px;
+  width: 45%;
+  height: 230px;
+}
+.journey-section .score-content .score-flex .text {
+  flex: 1;
+  padding: 10px 10px 10px 60px;
+}
+.journey-section .score-content .score-flex .text h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.journey-section .score-content .score-flex .text p {
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.journey-section .score-content .score-flex .text p.quote-text {
+  font-style: italic;
+  color: #a3a3a3;
+}
+.journey-section .score-content .score-flex .text p.quote-text-2 {
+  margin-top: 30px;
+  font-style: italic;
+  color: #a3a3a3;
+}
+.journey-section .score-content .score-flex .text .author {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.opacity {
+  opacity: 0;
 }
 
 .hide {

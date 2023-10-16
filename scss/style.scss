@@ -405,11 +405,12 @@
 
 // Start journy section
 .journey-section {
-  height: 2000px;
-  border: 1px solid red;
+  height: 1000px;
+  // border: 1px solid red;
   background-color: $darkGray-clr;
   padding: 60px 0;
   color: #fff;
+  position: relative;
 
   h1.journey-section-title {
     font-family: godOfWarFont;
@@ -455,7 +456,511 @@
       background-color: $blue-clr;
       color: $primary-clr;
     }
+
+    // Acctive Button here
   }
+
+  .content {
+    // border: 1px solid blue;
+    width: 80%;
+    // height: 400px;
+    position: absolute;
+    top: 400px;
+    left: 10%;
+    padding: 10px;
+    background-color: $darkGray-clr;
+    transition: opacity 0.5s ease-in-out;
+    // transform: translate(-50%, -50%);
+  }
+
+  // Fanstastic content
+  .fanstatic-content {
+    .fanstatic-title {
+      text-align: center;
+      font-weight: 300;
+      font-size: 3rem;
+      margin-bottom: 30px;
+    }
+
+    p.fanstatic-text {
+      text-align: center;
+      width: 650px;
+      margin: auto;
+      font-size: 1.1rem;
+      color: #a3a3a3;
+      margin-bottom: 30px;
+    }
+
+    .fanstatic-flex {
+      // border: 1px solid red;
+      display: flex;
+      justify-content: space-between;
+
+      .image-container {
+        // border: 1px solid blue;
+        background: url(../images/fantastic-photo.webp);
+        background-position: center;
+        background-size: cover;
+        // background-repeat: no-repeat;
+        border-radius: 20px;
+        margin-top: 15px;
+        // flex: ;
+        width: 45%;
+        height: 230px;
+      }
+
+      .text {
+        flex: 1;
+        padding: 10px 10px 10px 60px;
+
+        h3 {
+          font-size: 1.6rem;
+          font-weight: 500;
+          margin-bottom: 20px;
+        }
+
+        p {
+          font-weight: 300;
+          line-height: 1.6;
+          margin-bottom: 15px;
+        }
+
+        p.quote-text {
+          font-style: italic;
+          color: #a3a3a3;
+        }
+
+        .author {
+          font-weight: bold;
+          font-style: italic;
+        }
+      }
+    }
+  }
+
+  // Father and son content
+
+  .father-content {
+    .father-title {
+      text-align: center;
+      font-weight: 300;
+      font-size: 3rem;
+      margin-bottom: 30px;
+    }
+
+    p.father-text {
+      text-align: center;
+      width: 650px;
+      margin: auto;
+      font-size: 1.1rem;
+      color: #a3a3a3;
+      margin-bottom: 30px;
+    }
+
+    .father-flex {
+      // border: 1px solid red;
+      display: flex;
+      justify-content: space-between;
+
+      .image-container {
+        // border: 1px solid blue;
+        background: url(../images/father-and-son.webp);
+        background-position: center;
+        background-size: cover;
+        // background-repeat: no-repeat;
+        border-radius: 20px;
+        margin-top: 15px;
+        // flex: ;
+        width: 45%;
+        height: 230px;
+      }
+
+      .text {
+        flex: 1;
+        padding: 10px 10px 10px 60px;
+
+        h3 {
+          font-size: 1.6rem;
+          font-weight: 500;
+          margin-bottom: 20px;
+        }
+
+        p {
+          font-weight: 300;
+          line-height: 1.6;
+          margin-bottom: 15px;
+        }
+
+        p.quote-text {
+          font-style: italic;
+          color: #a3a3a3;
+        }
+
+        p.quote-text-2 {
+          margin-top: 30px;
+          font-style: italic;
+          color: #a3a3a3;
+        }
+        .author {
+          font-weight: bold;
+          font-style: italic;
+        }
+      }
+    }
+  }
+
+  // Combat content
+  .combat-content {
+    .combat-title {
+      text-align: center;
+      font-weight: 300;
+      font-size: 3rem;
+      margin-bottom: 30px;
+    }
+
+    p.combat-text {
+      text-align: center;
+      width: 650px;
+      margin: auto;
+      font-size: 1.1rem;
+      color: #a3a3a3;
+      margin-bottom: 30px;
+    }
+
+    .combat-flex {
+      // border: 1px solid red;
+      display: flex;
+      justify-content: space-between;
+
+      .image-container {
+        // border: 1px solid blue;
+        background: url(../images/father-and-son.webp);
+        background-position: center;
+        background-size: cover;
+        // background-repeat: no-repeat;
+        border-radius: 20px;
+        margin-top: 15px;
+        // flex: ;
+        width: 45%;
+        height: 230px;
+      }
+
+      .text {
+        flex: 1;
+        padding: 10px 10px 10px 60px;
+
+        h3 {
+          font-size: 1.6rem;
+          font-weight: 500;
+          margin-bottom: 20px;
+        }
+
+        p {
+          font-weight: 300;
+          line-height: 1.6;
+          margin-bottom: 15px;
+        }
+
+        p.quote-text {
+          font-style: italic;
+          color: #a3a3a3;
+        }
+
+        p.quote-text-2 {
+          margin-top: 30px;
+          font-style: italic;
+          color: #a3a3a3;
+        }
+        .author {
+          font-weight: bold;
+          font-style: italic;
+        }
+      }
+    }
+  }
+
+  // exploration centtent
+  .exploration-content {
+    .exploration-title {
+      text-align: center;
+      font-weight: 300;
+      font-size: 3rem;
+      margin-bottom: 30px;
+    }
+
+    p.exploration-text {
+      text-align: center;
+      width: 650px;
+      margin: auto;
+      font-size: 1.1rem;
+      color: #a3a3a3;
+      margin-bottom: 30px;
+    }
+
+    .exploration-flex {
+      // border: 1px solid red;
+      display: flex;
+      justify-content: space-between;
+
+      .image-container {
+        // border: 1px solid blue;
+        background: url(../images/exploration-photo.webp);
+        background-position: center;
+        background-size: cover;
+        // background-repeat: no-repeat;
+        border-radius: 20px;
+        margin-top: 15px;
+        // flex: ;
+        width: 45%;
+        height: 230px;
+      }
+
+      .text {
+        flex: 1;
+        padding: 10px 10px 10px 60px;
+
+        h3 {
+          font-size: 1.6rem;
+          font-weight: 500;
+          margin-bottom: 20px;
+        }
+
+        p {
+          font-weight: 300;
+          line-height: 1.6;
+          margin-bottom: 15px;
+        }
+
+        p.quote-text {
+          font-style: italic;
+          color: #a3a3a3;
+        }
+
+        p.quote-text-2 {
+          margin-top: 30px;
+          font-style: italic;
+          color: #a3a3a3;
+        }
+        .author {
+          font-weight: bold;
+          font-style: italic;
+        }
+      }
+    }
+  }
+
+  // universe Content
+  .universe-content {
+    .universe-title {
+      text-align: center;
+      font-weight: 300;
+      font-size: 3rem;
+      margin-bottom: 30px;
+    }
+
+    p.universe-text {
+      text-align: center;
+      width: 650px;
+      margin: auto;
+      font-size: 1.1rem;
+      color: #a3a3a3;
+      margin-bottom: 30px;
+    }
+
+    .universe-flex {
+      // border: 1px solid red;
+      display: flex;
+      justify-content: space-between;
+
+      .image-container {
+        // border: 1px solid blue;
+        background: url(../images/exploration-photo.webp);
+        background-position: center;
+        background-size: cover;
+        // background-repeat: no-repeat;
+        border-radius: 20px;
+        margin-top: 15px;
+        // flex: ;
+        width: 45%;
+        height: 230px;
+      }
+
+      .text {
+        flex: 1;
+        padding: 10px 10px 10px 60px;
+
+        h3 {
+          font-size: 1.6rem;
+          font-weight: 500;
+          margin-bottom: 20px;
+        }
+
+        p {
+          font-weight: 300;
+          line-height: 1.6;
+          margin-bottom: 15px;
+        }
+
+        p.quote-text {
+          font-style: italic;
+          color: #a3a3a3;
+        }
+
+        p.quote-text-2 {
+          margin-top: 30px;
+          font-style: italic;
+          color: #a3a3a3;
+        }
+        .author {
+          font-weight: bold;
+          font-style: italic;
+        }
+      }
+    }
+  }
+
+  // creatures Content
+  .creatures-content {
+    .creatures-title {
+      text-align: center;
+      font-weight: 300;
+      font-size: 3rem;
+      margin-bottom: 30px;
+    }
+
+    p.creatures-text {
+      text-align: center;
+      width: 650px;
+      margin: auto;
+      font-size: 1.1rem;
+      color: #a3a3a3;
+      margin-bottom: 30px;
+    }
+
+    .creatures-flex {
+      // border: 1px solid red;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+
+      .image-container-1 {
+        // border: 1px solid blue;
+        background: url(../images/creatures-photo-1.jfif);
+        background-position: center;
+        background-size: cover;
+        // background-repeat: no-repeat;
+        border-radius: 20px;
+        margin-top: 15px;
+        // flex: ;
+        width: 48%;
+        height: 300px;
+      }
+
+      .image-container-2 {
+        // border: 1px solid blue;
+        background: url(../images/creatures-photo-2.webp);
+        background-position: center;
+        background-size: cover;
+        // background-repeat: no-repeat;
+        border-radius: 20px;
+        margin-top: 15px;
+        // flex: ;
+        width: 48%;
+        height: 300px;
+      }
+    }
+
+    p.quote-text {
+      font-style: italic;
+      color: #a3a3a3;
+      // border: 1px solid red;
+      text-align: center;
+      width: 550px;
+      margin: auto;
+    }
+
+    .author {
+      display: block;
+      margin-top: 20px;
+      text-align: center;
+      font-weight: bold;
+      font-style: italic;
+    }
+  }
+
+  // Score Content
+  .score-content {
+    .score-title {
+      text-align: center;
+      font-weight: 300;
+      font-size: 3rem;
+      margin-bottom: 30px;
+    }
+
+    p.score-text {
+      text-align: center;
+      width: 650px;
+      margin: auto;
+      font-size: 1.1rem;
+      color: #a3a3a3;
+      margin-bottom: 30px;
+    }
+
+    .score-flex {
+      // border: 1px solid red;
+      display: flex;
+      justify-content: space-between;
+
+      .image-container {
+        // border: 1px solid blue;
+        background: url(../images/score-photo.webp);
+        background-position: center;
+        background-size: cover;
+        // background-repeat: no-repeat;
+        border-radius: 20px;
+        margin-top: 15px;
+        // flex: ;
+        width: 45%;
+        height: 230px;
+      }
+
+      .text {
+        flex: 1;
+        padding: 10px 10px 10px 60px;
+
+        h3 {
+          font-size: 1.6rem;
+          font-weight: 500;
+          margin-bottom: 20px;
+        }
+
+        p {
+          font-weight: 300;
+          line-height: 1.6;
+          margin-bottom: 15px;
+        }
+
+        p.quote-text {
+          font-style: italic;
+          color: #a3a3a3;
+        }
+
+        p.quote-text-2 {
+          margin-top: 30px;
+          font-style: italic;
+          color: #a3a3a3;
+        }
+        .author {
+          font-weight: bold;
+          font-style: italic;
+        }
+      }
+    }
+  }
+}
+
+.opacity {
+  opacity: 0;
 }
 
 .hide {
