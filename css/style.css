@@ -778,6 +778,11 @@ body {
   display: none;
 }
 
+.active-btn {
+  background-color: #0059ec;
+  color: #ffffff;
+}
+
 @media only screen and (max-width: 768px) {
   .header .container {
     width: auto;

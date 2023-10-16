@@ -967,5 +967,10 @@
   display: none;
 }
 
+.active-btn {
+  background-color: $blue-clr;
+  color: $primary-clr;
+}
+
 // Import resoonsive file
 @import "./responsive";

@@ -27,6 +27,20 @@ const scoreContent = document.querySelector(".score-content");
 // Add click functionality on the User click on the buttons
 fansBtn.addEventListener("click", () => {
   fanContent.classList.remove("opacity");
+  fansBtn.style.color = "#fff";
+  fansBtn.style.backgroundColor = "#0059ec";
+  fatherBtn.style.color = "";
+  fatherBtn.style.backgroundColor = "";
+  combatBtn.style.color = "";
+  combatBtn.style.backgroundColor = "";
+  expBtn.style.color = "";
+  expBtn.style.backgroundColor = "";
+  uniBtn.style.color = "";
+  uniBtn.style.backgroundColor = "";
+  creatBtn.style.color = "";
+  creatBtn.style.backgroundColor = "";
+  scoreBtn.style.color = "";
+  scoreBtn.style.backgroundColor = "";
   fatherContent.classList.add("opacity");
   combatContent.classList.add("opacity");
   expContent.classList.add("opacity");
@@ -36,6 +50,23 @@ fansBtn.addEventListener("click", () => {
 });
 
 fatherBtn.addEventListener("click", () => {
+  fatherContent.classList.remove("opacity");
+  fansBtn.style.color = "";
+  fansBtn.style.backgroundColor = "";
+  fatherBtn.style.color = "#fff";
+  fatherBtn.style.backgroundColor = "#0059ec";
+  combatBtn.style.color = "";
+  combatBtn.style.backgroundColor = "";
+  expBtn.style.color = "";
+  expBtn.style.backgroundColor = "";
+  uniBtn.style.color = "";
+  uniBtn.style.backgroundColor = "";
+  creatBtn.style.color = "";
+  creatBtn.style.backgroundColor = "";
+  scoreBtn.style.color = "";
+  scoreBtn.style.backgroundColor = "";
+  fansBtn.style.color = "";
+  fansBtn.style.backgroundColor = "";
   fatherContent.classList.remove("opacity");
   fanContent.classList.add("opacity");
   combatContent.classList.add("opacity");
@@ -47,6 +78,20 @@ fatherBtn.addEventListener("click", () => {
 
 combatBtn.addEventListener("click", () => {
   combatContent.classList.remove("opacity");
+  fansBtn.style.color = "";
+  fansBtn.style.backgroundColor = "";
+  fatherBtn.style.color = "";
+  fatherBtn.style.backgroundColor = "";
+  combatBtn.style.color = "#fff";
+  combatBtn.style.backgroundColor = "#0059ec";
+  expBtn.style.color = "";
+  expBtn.style.backgroundColor = "";
+  uniBtn.style.color = "";
+  uniBtn.style.backgroundColor = "";
+  creatBtn.style.color = "";
+  creatBtn.style.backgroundColor = "";
+  scoreBtn.style.color = "";
+  scoreBtn.style.backgroundColor = "";
   fatherContent.classList.add("opacity");
   fanContent.classList.add("opacity");
   uniContent.classList.add("opacity");
@@ -57,6 +102,20 @@ combatBtn.addEventListener("click", () => {
 
 expBtn.addEventListener("click", () => {
   expContent.classList.remove("opacity");
+  fansBtn.style.color = "";
+  fansBtn.style.backgroundColor = "";
+  fatherBtn.style.color = "";
+  fatherBtn.style.backgroundColor = "";
+  combatBtn.style.color = "";
+  combatBtn.style.backgroundColor = "";
+  expBtn.style.color = "#fff";
+  expBtn.style.backgroundColor = "#0059ec";
+  uniBtn.style.color = "";
+  uniBtn.style.backgroundColor = "";
+  creatBtn.style.color = "";
+  creatBtn.style.backgroundColor = "";
+  scoreBtn.style.color = "";
+  scoreBtn.style.backgroundColor = "";
   combatContent.classList.add("opacity");
   fatherContent.classList.add("opacity");
   uniContent.classList.add("opacity");
@@ -67,6 +126,20 @@ expBtn.addEventListener("click", () => {
 
 uniBtn.addEventListener("click", () => {
   uniContent.classList.remove("opacity");
+  fansBtn.style.color = "";
+  fansBtn.style.backgroundColor = "";
+  fatherBtn.style.color = "";
+  fatherBtn.style.backgroundColor = "";
+  combatBtn.style.color = "";
+  combatBtn.style.backgroundColor = "";
+  expBtn.style.color = "";
+  expBtn.style.backgroundColor = "";
+  uniBtn.style.color = "#fff";
+  uniBtn.style.backgroundColor = "#0059ec";
+  creatBtn.style.color = "";
+  creatBtn.style.backgroundColor = "";
+  scoreBtn.style.color = "";
+  scoreBtn.style.backgroundColor = "";
   fanContent.classList.add("opacity");
   expContent.classList.add("opacity");
   combatContent.classList.add("opacity");
@@ -77,6 +150,20 @@ uniBtn.addEventListener("click", () => {
 
 creatBtn.addEventListener("click", () => {
   createContent.classList.remove("opacity");
+  fansBtn.style.color = "";
+  fansBtn.style.backgroundColor = "";
+  fatherBtn.style.color = "";
+  fatherBtn.style.backgroundColor = "";
+  combatBtn.style.color = "";
+  combatBtn.style.backgroundColor = "";
+  expBtn.style.color = "";
+  expBtn.style.backgroundColor = "";
+  uniBtn.style.color = "";
+  uniBtn.style.backgroundColor = "";
+  creatBtn.style.color = "#fff";
+  creatBtn.style.backgroundColor = "#0059ec";
+  scoreBtn.style.color = "";
+  scoreBtn.style.backgroundColor = "";
   uniContent.classList.add("opacity");
   fanContent.classList.add("opacity");
   expContent.classList.add("opacity");
@@ -87,6 +174,20 @@ creatBtn.addEventListener("click", () => {
 
 scoreBtn.addEventListener("click", () => {
   scoreContent.classList.remove("opacity");
+  fansBtn.style.color = "";
+  fansBtn.style.backgroundColor = "";
+  fatherBtn.style.color = "";
+  fatherBtn.style.backgroundColor = "";
+  combatBtn.style.color = "";
+  combatBtn.style.backgroundColor = "";
+  expBtn.style.color = "";
+  expBtn.style.backgroundColor = "";
+  uniBtn.style.color = "";
+  uniBtn.style.backgroundColor = "";
+  creatBtn.style.color = "";
+  creatBtn.style.backgroundColor = "";
+  scoreBtn.style.color = "#fff";
+  scoreBtn.style.backgroundColor = "#0059ec";
   createContent.classList.add("opacity");
   uniContent.classList.add("opacity");
   fanContent.classList.add("opacity");
