@@ -387,9 +387,10 @@
     }
 
     .learn-more-btn {
+      font-family: inherit;
       background-color: $primary-clr;
       padding: 10px 20px;
-      font-size: 1.4rem;
+      font-size: 1rem;
       color: $bg-clr;
       font-weight: 600;
       border-radius: 30px;
@@ -955,6 +956,85 @@
           font-style: italic;
         }
       }
+    }
+  }
+}
+
+// Start FAQs section
+.faqs-section {
+  padding: 10px;
+  padding-bottom: 50px;
+  color: #fff;
+
+  h1.faqs-title {
+    font-family: godOfWarFont;
+    color: $primary-clr;
+    font-size: 3rem;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .faq-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .hr-line {
+      width: 60%;
+      margin: auto;
+      background-color: #1d1f20;
+    }
+
+    .faq-page {
+      color: $primary-clr;
+      background-color: $darkGray-clr;
+      cursor: pointer;
+      padding: 30px 20px;
+      width: 60%;
+      border: none;
+      outline: none;
+      transition: 0.4s;
+      margin: auto;
+      border-bottom: 1px solid #333333;
+    }
+
+    .faq-body {
+      margin: auto;
+      width: 55%;
+      padding: auto;
+    }
+
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    .active,
+    .faq-page:hover {
+      background-color: #1d1f20;
+    }
+
+    /* Style the faq-page panel. Note: hidden by default */
+    .faq-body {
+      padding: 0 10px;
+      background-color: $bg-clr;
+      color: #a3a3a3;
+      line-height: 1.6;
+      padding: 10px;
+      display: none;
+      overflow: hidden;
+    }
+
+    .faq-page:after {
+      content: url(../images/plus-symbol-button.png);
+      /* Unicode character for "plus" sign (+) */
+      // font-size: 13px;
+      // color: #fff;
+      float: right;
+      margin-left: 5px;
+    }
+
+    .active::after {
+      content: url(../images/minus-symbol-button.png);
+      /* Unicode character for "minus" sign (-) */
     }
   }
 }

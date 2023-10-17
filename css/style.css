@@ -331,9 +331,10 @@ body {
   list-style: url("../images/square.png");
 }
 .pc-section .pc-details-container .learn-more-btn {
+  font-family: inherit;
   background-color: #ffffff;
   padding: 10px 20px;
-  font-size: 1.4rem;
+  font-size: 1rem;
   color: #121314;
   font-weight: 600;
   border-radius: 30px;
@@ -768,6 +769,73 @@ body {
 .journey-section .score-content .score-flex .text .author {
   font-weight: bold;
   font-style: italic;
+}
+
+.faqs-section {
+  padding: 10px;
+  padding-bottom: 50px;
+  color: #fff;
+}
+.faqs-section h1.faqs-title {
+  font-family: godOfWarFont;
+  color: #ffffff;
+  font-size: 3rem;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.faqs-section .faq-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  /* Style the faq-page panel. Note: hidden by default */
+}
+.faqs-section .faq-container .hr-line {
+  width: 60%;
+  margin: auto;
+  background-color: #1d1f20;
+}
+.faqs-section .faq-container .faq-page {
+  color: #ffffff;
+  background-color: #0f0f0f;
+  cursor: pointer;
+  padding: 30px 20px;
+  width: 60%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: auto;
+  border-bottom: 1px solid #333333;
+}
+.faqs-section .faq-container .faq-body {
+  margin: auto;
+  width: 55%;
+  padding: auto;
+}
+.faqs-section .faq-container .active,
+.faqs-section .faq-container .faq-page:hover {
+  background-color: #1d1f20;
+}
+.faqs-section .faq-container .faq-body {
+  padding: 0 10px;
+  background-color: #121314;
+  color: #a3a3a3;
+  line-height: 1.6;
+  padding: 10px;
+  display: none;
+  overflow: hidden;
+}
+.faqs-section .faq-container .faq-page:after {
+  content: url(../images/plus-symbol-button.png);
+  /* Unicode character for "plus" sign (+) */
+  float: right;
+  margin-left: 5px;
+}
+.faqs-section .faq-container .active::after {
+  content: url(../images/minus-symbol-button.png);
+  /* Unicode character for "minus" sign (-) */
 }
 
 .opacity {
