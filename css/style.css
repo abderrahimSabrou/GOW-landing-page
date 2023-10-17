@@ -792,11 +792,6 @@ body {
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   /* Style the faq-page panel. Note: hidden by default */
 }
-.faqs-section .faq-container .hr-line {
-  width: 60%;
-  margin: auto;
-  background-color: #1d1f20;
-}
 .faqs-section .faq-container .faq-page {
   color: #ffffff;
   background-color: #0f0f0f;
@@ -1123,5 +1118,18 @@ body {
     width: 100%;
     text-align: center;
     padding: 10px;
+  }
+  .faqs-section {
+    margin-top: 100px;
+    height: 1000px;
+  }
+  .faqs-section h1.faqs-title {
+    font-size: 2rem;
+  }
+  .faqs-section .faq-container .faq-page {
+    width: 90%;
+  }
+  .faqs-section .faq-container .faq-body {
+    width: 80%;
   }
 }
