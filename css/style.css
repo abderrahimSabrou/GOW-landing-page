@@ -833,6 +833,21 @@ body {
   /* Unicode character for "minus" sign (-) */
 }
 
+.footer {
+  color: #ffffff;
+  background-color: #0f0f0f;
+  padding: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer p {
+  font-weight: 300;
+}
+.footer img {
+  width: 150px;
+}
+
 .opacity {
   opacity: 0;
 }
@@ -1131,5 +1146,14 @@ body {
   }
   .faqs-section .faq-container .faq-body {
     width: 80%;
+  }
+  .footer {
+    padding: 10px;
+  }
+  .footer p {
+    font-size: 0.7rem;
+  }
+  .footer img {
+    width: 100px;
   }
 }

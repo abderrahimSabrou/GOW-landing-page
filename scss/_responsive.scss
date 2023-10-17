@@ -411,4 +411,18 @@
       }
     }
   }
+
+  // Start footer
+
+  .footer {
+    padding: 10px;
+    p {
+      font-size: 0.7rem;
+    }
+    img {
+      // display: inline-block;
+      // border: 1px solid red;
+      width: 100px;
+    }
+  }
 }

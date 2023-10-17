@@ -1033,6 +1033,25 @@
   }
 }
 
+// Start footer
+.footer {
+  color: $primary-clr;
+
+  background-color: $darkGray-clr;
+  padding: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    font-weight: 300;
+  }
+
+  img {
+    width: 150px;
+  }
+}
+
 .opacity {
   opacity: 0;
 }
