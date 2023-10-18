@@ -781,7 +781,7 @@ body {
   color: #ffffff;
   font-size: 3rem;
   margin-top: 80px;
-  margin-bottom: 30px;
+  margin-bottom: 90px;
   text-align: center;
 }
 .faqs-section .faq-container {
@@ -868,6 +868,9 @@ body {
   .header .container .navbar {
     display: none;
   }
+  .hero-section {
+    height: 120vh;
+  }
   .hero-section .hero-container {
     width: auto;
   }
@@ -943,23 +946,45 @@ body {
     text-align: right;
     font-size: 0.8rem;
   }
+  .games-section .games-container .games-series .hovering a img {
+    display: none;
+  }
   .pc-section {
+    width: 100%;
     flex-wrap: wrap-reverse;
     justify-content: center;
     align-items: center;
     height: 130vh;
   }
   .pc-section .pc-video-container {
-    margin-top: 20px;
+    margin-top: -20px;
   }
   .pc-section .pc-video-container iframe {
-    width: 400px;
+    width: 96vw;
   }
   .pc-section .pc-details-container {
     width: 100%;
     border-radius: 0;
     margin: 0;
     margin-bottom: 20px;
+  }
+  .pc-section .pc-details-container .pc-details-title {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  .pc-section .pc-details-container .pc-details-about-text {
+    width: 95%;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .pc-section .pc-details-container .pc-features-tilte {
+    font-size: 1.2rem;
+  }
+  .pc-section .pc-details-container ul {
+    margin-top: 0;
+  }
+  .journey-section {
+    margin-bottom: 400px;
   }
   .journey-section h1.journey-section-title {
     font-size: 2rem;
@@ -970,11 +995,14 @@ body {
   .journey-section .btns-container {
     width: auto;
     border-radius: 0;
-    overflow-x: auto;
+    overflow-x: scroll;
   }
   .journey-section .btns-container > button {
     flex: none;
     width: 120px;
+  }
+  .journey-section .btns-container::-webkit-scrollbar {
+    display: none;
   }
   .journey-section .content {
     width: 100%;
@@ -1137,6 +1165,7 @@ body {
   .faqs-section {
     margin-top: 100px;
     height: 1000px;
+    margin-bottom: 100px;
   }
   .faqs-section h1.faqs-title {
     font-size: 2rem;

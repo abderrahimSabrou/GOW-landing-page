@@ -14,6 +14,7 @@
 
   // Hero section
   .hero-section {
+    height: 120vh;
     .hero-container {
       width: auto;
 
@@ -124,12 +125,18 @@
             }
           }
         }
+
+        .hovering a img {
+          display: none;
+        }
       }
     }
   }
 
   // Start "COW on pc" section
   .pc-section {
+    width: 100%;
+    // border: 1px solid red;
     // padding: 10px;
     flex-wrap: wrap-reverse;
     justify-content: center;
@@ -137,9 +144,9 @@
     height: 130vh;
 
     .pc-video-container {
-      margin-top: 20px;
+      margin-top: -20px;
       iframe {
-        width: 400px;
+        width: 96vw;
       }
     }
 
@@ -148,11 +155,31 @@
       border-radius: 0;
       margin: 0;
       margin-bottom: 20px;
+
+      .pc-details-title {
+        font-size: 1.7rem;
+        text-align: center;
+      }
+
+      .pc-details-about-text {
+        width: 95%;
+        text-align: center;
+        font-size: 1rem;
+      }
+      .pc-features-tilte {
+        font-size: 1.2rem;
+      }
+
+      ul {
+        margin-top: 0;
+      }
     }
   }
 
   // Start journy section
   .journey-section {
+    margin-bottom: 400px;
+
     h1.journey-section-title {
       font-size: 2rem;
     }
@@ -164,7 +191,7 @@
     .btns-container {
       width: auto;
       border-radius: 0;
-      overflow-x: auto;
+      overflow-x: scroll;
 
       // display: block;
 
@@ -172,6 +199,10 @@
         flex: none;
         width: 120px;
       }
+    }
+
+    .btns-container::-webkit-scrollbar {
+      display: none;
     }
 
     .content {
@@ -397,6 +428,7 @@
   .faqs-section {
     margin-top: 100px;
     height: 1000px;
+    margin-bottom: 100px;
     h1.faqs-title {
       font-size: 2rem;
     }
