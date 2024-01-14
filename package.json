@@ -1,0 +1,15 @@
+{
+  "name": "gow-landing-page",
+  "version": "1.0.0",
+  "description": "![God of War Logo](./images/GOW-preview.png)",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.11.0",
+    "parcel": "^2.11.0"
+  }
+}

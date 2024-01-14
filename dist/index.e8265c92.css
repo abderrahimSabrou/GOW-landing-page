@@ -7,9 +7,9 @@ html::-webkit-scrollbar {
 }
 
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -26,832 +26,925 @@ button {
 }
 
 body {
-  position: relative;
-  background-color: black;
-  font-family: "Poppins", sans-serif;
+  background-color: #000;
   height: 3000px;
+  font-family: Poppins, sans-serif;
+  position: relative;
 }
 
 @font-face {
   font-family: godOfWarFont;
-  src: url(../fonts/godofwar.TTF);
+  src: url("godofwar.a43c92bc.TTF");
 }
+
 .header {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  z-index: 10;
+  background-color: #0000001a;
   width: 100%;
   position: fixed;
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
-  background-color: rgba(0, 0, 0, 0.1);
-  z-index: 10;
 }
+
 .header .container {
-  width: 1200px;
-  color: #ffffff;
-  padding: 10px;
-  margin: auto;
-  display: flex;
+  color: #fff;
   justify-content: space-between;
   align-items: center;
+  width: 1200px;
+  margin: auto;
+  padding: 10px;
+  display: flex;
 }
+
 .header .container .logo img {
   width: 60px;
 }
+
 .header .container .navbar .nav-menu {
-  display: flex;
   justify-content: center;
   align-items: center;
+  display: flex;
 }
+
 .header .container .navbar .nav-menu li {
   margin-left: 20px;
   margin-right: 20px;
 }
+
 .header .container .navbar .nav-menu li a {
-  font-size: 1.2rem;
   letter-spacing: 1px;
-  box-shadow: inset 0 0 0 0 #0059ec;
-  margin: 0 -0.25rem;
-  padding: 0 -0.25rem;
-  color: #ffffff;
-  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  color: #fff;
+  margin: 0 -.25rem;
+  padding: 0 -.25rem;
+  font-size: 1.2rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  box-shadow: inset 0 0 #0059ec;
 }
+
 .header .container .navbar .nav-menu li a:hover {
-  box-shadow: inset 100px 0 0 0 #0059ec;
+  box-shadow: inset 100px 0 #0059ec;
 }
 
 .bars {
-  position: fixed;
   z-index: 3;
-  top: 5px;
-  right: 20px;
-  color: #ffffff;
+  color: #fff;
   font-size: 3rem;
   display: none;
+  position: fixed;
+  top: 5px;
+  right: 20px;
 }
 
 .moba-navbar {
-  position: fixed;
-  width: 100%;
-  height: 100%;
   z-index: 2;
-  display: flex;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  background-color: #0000001a;
   justify-content: center;
   align-items: center;
-  -webkit-backdrop-filter: blur(20px);
-          backdrop-filter: blur(20px);
-  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: fixed;
 }
+
 .moba-navbar a {
-  line-height: 2;
-  font-size: 2rem;
   letter-spacing: 1px;
-  box-shadow: inset 0 0 0 0 #0059ec;
-  margin: 0 -0.25rem;
-  padding: 0 -0.25rem;
-  color: #ffffff;
-  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  color: #fff;
+  margin: 0 -.25rem;
+  padding: 0 -.25rem;
+  font-size: 2rem;
+  line-height: 2;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  box-shadow: inset 0 0 #0059ec;
 }
+
 .moba-navbar a:hover {
-  box-shadow: inset 100px 0 0 0 #0059ec;
+  box-shadow: inset 100px 0 #0059ec;
 }
 
 .hero-section {
+  color: #fff;
+  background: url("hero.22dc911d.jpg") center / cover;
   height: 100vh;
-  background: url(../images/hero.jpg);
-  background-position: center;
-  background-size: cover;
   padding-top: 200px;
-  color: #ffffff;
 }
+
 .hero-section .hero-container {
   width: 1200px;
   margin: auto;
 }
+
 .hero-section .hero-container h1 {
-  font-family: godOfWarFont;
-  font-size: 3rem;
   margin-top: 30px;
   margin-bottom: 30px;
+  font-family: godOfWarFont;
+  font-size: 3rem;
 }
+
 .hero-section .hero-container .hero-text {
-  font-size: 1.4rem;
   width: 50%;
   margin-bottom: 30px;
+  font-size: 1.4rem;
   line-height: 1.7;
 }
+
 .hero-section .hero-container .review-container {
-  width: 300px;
-  display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 300px;
   margin-bottom: 20px;
+  display: flex;
 }
+
 .hero-section .hero-container .review-container .stars i {
   color: gold;
 }
+
 .hero-section .hero-container .review-container p {
   font-size: 1.2rem;
   font-weight: bold;
 }
+
 .hero-section span.blue {
   color: #0059ec;
 }
+
 .hero-section .genre {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: #0000001a;
+  border-radius: 10px;
+  padding: 10px;
   font-weight: 400;
   display: inline-block;
-  padding: 10px;
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
-  background-color: rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
 }
+
 .hero-section .cta-container {
-  margin-top: 40px;
-  width: 27%;
-  display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.hero-section .cta-container .play-btn-container {
+  width: 27%;
+  margin-top: 40px;
   display: flex;
+}
+
+.hero-section .cta-container .play-btn-container {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  display: flex;
 }
+
 .hero-section .cta-container .play-btn-container .play-button {
   cursor: pointer;
 }
+
 .hero-section .cta-container .play-btn-container .play-button img {
   width: 60px;
 }
+
 .hero-section .cta-container .play-btn-container .cta-trailer {
+  color: #fff;
   margin-top: 5px;
-  color: #ffffff;
 }
+
 .hero-section .cta-container .play-btn-container .cta-trailer:hover {
   color: #0059ec;
   -webkit-text-decoration: underline #0059ec;
-          text-decoration: underline #0059ec;
+  text-decoration: underline #0059ec;
 }
+
 .hero-section .cta-container .buy-btn {
-  color: #ffffff;
+  color: #fff;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  text-transform: uppercase;
+  background-color: #0000001a;
+  border: 2px solid #0059ec;
+  border-radius: 10px;
+  padding: 20px;
   font-family: godOfWarFont;
   font-size: 1.4rem;
-  padding: 20px;
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
-  background-color: rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  text-transform: uppercase;
-  border: 2px solid #0059ec;
-  transition: background-color 0.3s ease-in-out;
+  transition: background-color .3s ease-in-out;
 }
+
 .hero-section .cta-container .buy-btn:hover {
   background-color: #0059ec;
 }
 
 .story-section {
-  height: 120vh;
-  display: flex;
   justify-content: center;
   align-items: center;
+  height: 120vh;
+  display: flex;
 }
+
 .story-section .story-text-container {
+  color: #fff;
   width: 40%;
-  color: #ffffff;
 }
+
 .story-section .story-text-container h1 {
+  margin-bottom: 20px;
   font-family: godOfWarFont;
   font-size: 3rem;
-  margin-bottom: 20px;
 }
+
 .story-section .story-text-container p {
   margin-bottom: 10px;
 }
+
 .story-section .story-img-container {
+  background: url("story-photo.363529e7.jpg") top / cover;
   width: 30%;
   height: 80%;
-  background: url(../images/story-photo.jpg);
-  background-position: top;
-  background-size: cover;
 }
 
 .games-section {
-  padding-top: 100px;
-  height: 233vh;
   color: #fff;
   background-color: #0f0f0f;
+  height: 233vh;
+  padding-top: 100px;
 }
+
 .games-section .games-container {
-  margin-top: 100px;
   width: 100%;
   height: 100%;
+  margin-top: 100px;
 }
+
 .games-section .games-container .games-title {
-  font-family: godOfWarFont;
-  font-size: 3rem;
   text-align: center;
   margin: 50px auto;
+  font-family: godOfWarFont;
+  font-size: 3rem;
 }
+
 .games-section .games-container .games-series {
   width: 80%;
   margin: 100px auto auto;
 }
+
 .games-section .games-container .games-series > div {
-  height: 150px;
   border-top: 1px solid #414141;
+  height: 150px;
 }
+
 .games-section .games-container .games-series > div a {
-  height: 100%;
-  position: relative;
   cursor: pointer;
-  display: block;
-}
-.games-section .games-container .games-series > div a div {
   height: 100%;
-  display: flex;
+  display: block;
+  position: relative;
+}
+
+.games-section .games-container .games-series > div a div {
   justify-content: space-between;
   align-items: center;
+  height: 100%;
   padding-left: 20px;
   padding-right: 20px;
+  display: flex;
 }
+
 .games-section .games-container .games-series > div a div h2.title {
+  color: #fff;
   font-family: godOfWarFont;
   font-size: 2.3rem;
-  color: #ffffff;
 }
+
 .games-section .games-container .games-series > div a div p {
-  font-weight: 200;
   color: #a3a3a3;
+  font-weight: 200;
 }
+
 .games-section .games-container .games-series .hovering a img {
   opacity: 0;
+  width: 300px;
+  transition: all .3s ease-in-out;
   position: absolute;
   top: -70px;
   left: 400px;
-  width: 300px;
-  transition: all 0.3s ease-in-out;
 }
+
 .games-section .games-container .games-series .hovering a:hover img {
   opacity: 1;
 }
 
 .pc-section {
-  height: 100vh;
   color: #fff;
-  display: flex;
+  background: url("bg-trailer.e7592383.webp") center / cover;
   justify-content: center;
   align-items: center;
-  background: url(../images/bg-trailer.webp);
-  background-position: center;
-  background-size: cover;
+  height: 100vh;
+  display: flex;
 }
+
 .pc-section .pc-details-container {
-  padding: 30px 20px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: #0006;
+  border-radius: 20px;
   width: 40%;
   margin-left: 30px;
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
-  background-color: rgba(0, 0, 0, 0.4);
-  border-radius: 20px;
+  padding: 30px 20px;
 }
+
 .pc-section .pc-details-container .pc-details-title {
+  margin: 20px auto;
   font-family: godOfWarFont;
   font-size: 2.4rem;
-  margin: 20px auto;
 }
+
 .pc-section .pc-details-container .pc-details-about-text {
+  color: #acacac;
   width: 80%;
   margin-bottom: 20px;
   font-size: 1.2rem;
-  color: #acacac;
 }
+
 .pc-section .pc-details-container .pc-features-tilte {
   margin-bottom: 10px;
   font-weight: 400;
 }
+
 .pc-section .pc-details-container ul {
-  margin-left: 40px;
-  line-height: 1.7;
   margin-top: 20px;
   margin-bottom: 30px;
+  margin-left: 40px;
+  line-height: 1.7;
 }
+
 .pc-section .pc-details-container ul li {
-  list-style: url("../images/square.png");
+  list-style: url("square.8474394f.png");
 }
+
 .pc-section .pc-details-container .learn-more-btn {
-  font-family: inherit;
-  background-color: #ffffff;
-  padding: 10px 20px;
-  font-size: 1rem;
   color: #121314;
-  font-weight: 600;
+  background-color: #fff;
   border-radius: 30px;
-  transition: all 0.3s ease-in-out;
+  padding: 10px 20px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all .3s ease-in-out;
 }
+
 .pc-section .pc-details-container .learn-more-btn:hover {
+  color: #fff;
   background-color: #0059ec;
-  color: #ffffff;
 }
 
 .journey-section {
-  height: 1200px;
-  background-color: #0f0f0f;
-  padding: 60px 0;
   color: #fff;
+  background-color: #0f0f0f;
+  height: 1200px;
+  padding: 60px 0;
   position: relative;
 }
+
 .journey-section h1.journey-section-title {
+  text-align: center;
+  margin: 20px auto;
   font-family: godOfWarFont;
   font-size: 2.4rem;
-  text-align: center;
-  margin: 20px auto;
 }
+
 .journey-section p.journey-section-title-text {
+  text-align: center;
   width: 50%;
   margin: 30px auto;
-  text-align: center;
 }
+
 .journey-section .btns-container {
-  width: 70%;
-  margin: 20px auto;
-  display: flex;
+  background-color: #1d1f20;
+  border-radius: 30px;
   justify-content: center;
   align-items: center;
+  width: 70%;
+  margin: 20px auto;
   padding: 10px;
-  border-radius: 30px;
-  background-color: #1d1f20;
+  display: flex;
 }
+
 .journey-section .btns-container > button {
+  color: #acacac;
+  cursor: pointer;
+  background-color: #0f0f0f;
+  border-radius: 30px;
   flex: 1;
+  height: 60px;
   margin-left: 3px;
   margin-right: 3px;
   padding: 10px;
-  height: 60px;
   font-family: inherit;
   font-weight: bold;
-  color: #acacac;
-  border-radius: 30px;
-  background-color: #0f0f0f;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
+
 .journey-section .btns-container > button:hover {
+  color: #fff;
   background-color: #0059ec;
-  color: #ffffff;
 }
+
 .journey-section .content {
+  background-color: #0f0f0f;
   width: 80%;
+  padding: 10px;
+  transition: opacity .5s ease-in-out;
   position: absolute;
   top: 400px;
   left: 10%;
-  padding: 10px;
-  background-color: #0f0f0f;
-  transition: opacity 0.5s ease-in-out;
 }
+
 .journey-section .fanstatic-content .fanstatic-title {
   text-align: center;
-  font-weight: 300;
-  font-size: 3rem;
   margin-bottom: 30px;
+  font-size: 3rem;
+  font-weight: 300;
 }
+
 .journey-section .fanstatic-content p.fanstatic-text {
   text-align: center;
-  width: 650px;
-  margin: auto;
-  font-size: 1.1rem;
   color: #a3a3a3;
-  margin-bottom: 30px;
+  width: 650px;
+  margin: auto auto 30px;
+  font-size: 1.1rem;
 }
+
 .journey-section .fanstatic-content .fanstatic-flex {
-  display: flex;
   justify-content: space-between;
+  display: flex;
 }
+
 .journey-section .fanstatic-content .fanstatic-flex .image-container {
-  background: url(../images/fantastic-photo.webp);
-  background-position: center;
-  background-size: cover;
+  background: url("fantastic-photo.fe02e8fe.webp") center / cover;
   border-radius: 20px;
-  margin-top: 15px;
   width: 45%;
   height: 230px;
+  margin-top: 15px;
 }
+
 .journey-section .fanstatic-content .fanstatic-flex .text {
   flex: 1;
   padding: 10px 10px 10px 60px;
 }
+
 .journey-section .fanstatic-content .fanstatic-flex .text h3 {
+  margin-bottom: 20px;
   font-size: 1.6rem;
   font-weight: 500;
-  margin-bottom: 20px;
 }
+
 .journey-section .fanstatic-content .fanstatic-flex .text p {
+  margin-bottom: 15px;
   font-weight: 300;
   line-height: 1.6;
-  margin-bottom: 15px;
 }
+
 .journey-section .fanstatic-content .fanstatic-flex .text p.quote-text {
-  font-style: italic;
   color: #a3a3a3;
-}
-.journey-section .fanstatic-content .fanstatic-flex .text .author {
-  font-weight: bold;
   font-style: italic;
 }
+
+.journey-section .fanstatic-content .fanstatic-flex .text .author {
+  font-style: italic;
+  font-weight: bold;
+}
+
 .journey-section .father-content .father-title {
   text-align: center;
-  font-weight: 300;
-  font-size: 3rem;
   margin-bottom: 30px;
+  font-size: 3rem;
+  font-weight: 300;
 }
+
 .journey-section .father-content p.father-text {
   text-align: center;
-  width: 650px;
-  margin: auto;
-  font-size: 1.1rem;
   color: #a3a3a3;
-  margin-bottom: 30px;
+  width: 650px;
+  margin: auto auto 30px;
+  font-size: 1.1rem;
 }
+
 .journey-section .father-content .father-flex {
-  display: flex;
   justify-content: space-between;
+  display: flex;
 }
+
 .journey-section .father-content .father-flex .image-container {
-  background: url(../images/father-and-son.webp);
-  background-position: center;
-  background-size: cover;
+  background: url("father-and-son.244b63ab.webp") center / cover;
   border-radius: 20px;
-  margin-top: 15px;
   width: 45%;
   height: 230px;
+  margin-top: 15px;
 }
+
 .journey-section .father-content .father-flex .text {
   flex: 1;
   padding: 10px 10px 10px 60px;
 }
+
 .journey-section .father-content .father-flex .text h3 {
+  margin-bottom: 20px;
   font-size: 1.6rem;
   font-weight: 500;
-  margin-bottom: 20px;
 }
+
 .journey-section .father-content .father-flex .text p {
+  margin-bottom: 15px;
   font-weight: 300;
   line-height: 1.6;
-  margin-bottom: 15px;
 }
+
 .journey-section .father-content .father-flex .text p.quote-text {
-  font-style: italic;
   color: #a3a3a3;
+  font-style: italic;
 }
+
 .journey-section .father-content .father-flex .text p.quote-text-2 {
+  color: #a3a3a3;
   margin-top: 30px;
   font-style: italic;
-  color: #a3a3a3;
 }
+
 .journey-section .father-content .father-flex .text .author {
-  font-weight: bold;
   font-style: italic;
+  font-weight: bold;
 }
+
 .journey-section .combat-content .combat-title {
   text-align: center;
-  font-weight: 300;
-  font-size: 3rem;
   margin-bottom: 30px;
+  font-size: 3rem;
+  font-weight: 300;
 }
+
 .journey-section .combat-content p.combat-text {
   text-align: center;
-  width: 650px;
-  margin: auto;
-  font-size: 1.1rem;
   color: #a3a3a3;
-  margin-bottom: 30px;
+  width: 650px;
+  margin: auto auto 30px;
+  font-size: 1.1rem;
 }
+
 .journey-section .combat-content .combat-flex {
-  display: flex;
   justify-content: space-between;
+  display: flex;
 }
+
 .journey-section .combat-content .combat-flex .image-container {
-  background: url(../images/father-and-son.webp);
-  background-position: center;
-  background-size: cover;
+  background: url("father-and-son.244b63ab.webp") center / cover;
   border-radius: 20px;
-  margin-top: 15px;
   width: 45%;
   height: 230px;
+  margin-top: 15px;
 }
+
 .journey-section .combat-content .combat-flex .text {
   flex: 1;
   padding: 10px 10px 10px 60px;
 }
+
 .journey-section .combat-content .combat-flex .text h3 {
+  margin-bottom: 20px;
   font-size: 1.6rem;
   font-weight: 500;
-  margin-bottom: 20px;
 }
+
 .journey-section .combat-content .combat-flex .text p {
+  margin-bottom: 15px;
   font-weight: 300;
   line-height: 1.6;
-  margin-bottom: 15px;
 }
+
 .journey-section .combat-content .combat-flex .text p.quote-text {
-  font-style: italic;
   color: #a3a3a3;
+  font-style: italic;
 }
+
 .journey-section .combat-content .combat-flex .text p.quote-text-2 {
+  color: #a3a3a3;
   margin-top: 30px;
   font-style: italic;
-  color: #a3a3a3;
 }
+
 .journey-section .combat-content .combat-flex .text .author {
-  font-weight: bold;
   font-style: italic;
+  font-weight: bold;
 }
+
 .journey-section .exploration-content .exploration-title {
   text-align: center;
-  font-weight: 300;
-  font-size: 3rem;
   margin-bottom: 30px;
+  font-size: 3rem;
+  font-weight: 300;
 }
+
 .journey-section .exploration-content p.exploration-text {
   text-align: center;
-  width: 650px;
-  margin: auto;
-  font-size: 1.1rem;
   color: #a3a3a3;
-  margin-bottom: 30px;
+  width: 650px;
+  margin: auto auto 30px;
+  font-size: 1.1rem;
 }
+
 .journey-section .exploration-content .exploration-flex {
-  display: flex;
   justify-content: space-between;
+  display: flex;
 }
+
 .journey-section .exploration-content .exploration-flex .image-container {
-  background: url(../images/exploration-photo.webp);
-  background-position: center;
-  background-size: cover;
+  background: url("exploration-photo.45886695.webp") center / cover;
   border-radius: 20px;
-  margin-top: 15px;
   width: 45%;
   height: 230px;
+  margin-top: 15px;
 }
+
 .journey-section .exploration-content .exploration-flex .text {
   flex: 1;
   padding: 10px 10px 10px 60px;
 }
+
 .journey-section .exploration-content .exploration-flex .text h3 {
+  margin-bottom: 20px;
   font-size: 1.6rem;
   font-weight: 500;
-  margin-bottom: 20px;
 }
+
 .journey-section .exploration-content .exploration-flex .text p {
+  margin-bottom: 15px;
   font-weight: 300;
   line-height: 1.6;
-  margin-bottom: 15px;
 }
+
 .journey-section .exploration-content .exploration-flex .text p.quote-text {
-  font-style: italic;
   color: #a3a3a3;
+  font-style: italic;
 }
+
 .journey-section .exploration-content .exploration-flex .text p.quote-text-2 {
+  color: #a3a3a3;
   margin-top: 30px;
   font-style: italic;
-  color: #a3a3a3;
 }
+
 .journey-section .exploration-content .exploration-flex .text .author {
-  font-weight: bold;
   font-style: italic;
+  font-weight: bold;
 }
+
 .journey-section .universe-content .universe-title {
   text-align: center;
-  font-weight: 300;
-  font-size: 3rem;
   margin-bottom: 30px;
+  font-size: 3rem;
+  font-weight: 300;
 }
+
 .journey-section .universe-content p.universe-text {
   text-align: center;
-  width: 650px;
-  margin: auto;
-  font-size: 1.1rem;
   color: #a3a3a3;
-  margin-bottom: 30px;
+  width: 650px;
+  margin: auto auto 30px;
+  font-size: 1.1rem;
 }
+
 .journey-section .universe-content .universe-flex {
-  display: flex;
   justify-content: space-between;
+  display: flex;
 }
+
 .journey-section .universe-content .universe-flex .image-container {
-  background: url(../images/exploration-photo.webp);
-  background-position: center;
-  background-size: cover;
+  background: url("exploration-photo.45886695.webp") center / cover;
   border-radius: 20px;
-  margin-top: 15px;
   width: 45%;
   height: 230px;
+  margin-top: 15px;
 }
+
 .journey-section .universe-content .universe-flex .text {
   flex: 1;
   padding: 10px 10px 10px 60px;
 }
+
 .journey-section .universe-content .universe-flex .text h3 {
+  margin-bottom: 20px;
   font-size: 1.6rem;
   font-weight: 500;
-  margin-bottom: 20px;
 }
+
 .journey-section .universe-content .universe-flex .text p {
+  margin-bottom: 15px;
   font-weight: 300;
   line-height: 1.6;
-  margin-bottom: 15px;
 }
+
 .journey-section .universe-content .universe-flex .text p.quote-text {
-  font-style: italic;
   color: #a3a3a3;
+  font-style: italic;
 }
+
 .journey-section .universe-content .universe-flex .text p.quote-text-2 {
+  color: #a3a3a3;
   margin-top: 30px;
   font-style: italic;
-  color: #a3a3a3;
 }
+
 .journey-section .universe-content .universe-flex .text .author {
-  font-weight: bold;
   font-style: italic;
+  font-weight: bold;
 }
+
 .journey-section .creatures-content .creatures-title {
   text-align: center;
-  font-weight: 300;
-  font-size: 3rem;
   margin-bottom: 30px;
+  font-size: 3rem;
+  font-weight: 300;
 }
+
 .journey-section .creatures-content p.creatures-text {
   text-align: center;
-  width: 650px;
-  margin: auto;
-  font-size: 1.1rem;
   color: #a3a3a3;
-  margin-bottom: 30px;
+  width: 650px;
+  margin: auto auto 30px;
+  font-size: 1.1rem;
 }
+
 .journey-section .creatures-content .creatures-flex {
-  display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
+  display: flex;
 }
+
 .journey-section .creatures-content .creatures-flex .image-container-1 {
-  background: url(../images/creatures-photo-1.jfif);
-  background-position: center;
-  background-size: cover;
+  background: url("creatures-photo-1.c9f1b880.jfif") center / cover;
   border-radius: 20px;
-  margin-top: 15px;
   width: 48%;
   height: 300px;
+  margin-top: 15px;
 }
+
 .journey-section .creatures-content .creatures-flex .image-container-2 {
-  background: url(../images/creatures-photo-2.webp);
-  background-position: center;
-  background-size: cover;
+  background: url("creatures-photo-2.c6aab992.webp") center / cover;
   border-radius: 20px;
-  margin-top: 15px;
   width: 48%;
   height: 300px;
+  margin-top: 15px;
 }
+
 .journey-section .creatures-content p.quote-text {
-  font-style: italic;
   color: #a3a3a3;
   text-align: center;
   width: 550px;
   margin: auto;
-}
-.journey-section .creatures-content .author {
-  display: block;
-  margin-top: 20px;
-  text-align: center;
-  font-weight: bold;
   font-style: italic;
 }
+
+.journey-section .creatures-content .author {
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+  font-weight: bold;
+  display: block;
+}
+
 .journey-section .score-content .score-title {
   text-align: center;
-  font-weight: 300;
-  font-size: 3rem;
   margin-bottom: 30px;
+  font-size: 3rem;
+  font-weight: 300;
 }
+
 .journey-section .score-content p.score-text {
   text-align: center;
-  width: 650px;
-  margin: auto;
-  font-size: 1.1rem;
   color: #a3a3a3;
-  margin-bottom: 30px;
+  width: 650px;
+  margin: auto auto 30px;
+  font-size: 1.1rem;
 }
+
 .journey-section .score-content .score-flex {
-  display: flex;
   justify-content: space-between;
+  display: flex;
 }
+
 .journey-section .score-content .score-flex .image-container {
-  background: url(../images/score-photo.webp);
-  background-position: center;
-  background-size: cover;
+  background: url("score-photo.bcf5f9a1.webp") center / cover;
   border-radius: 20px;
-  margin-top: 15px;
   width: 45%;
   height: 230px;
+  margin-top: 15px;
 }
+
 .journey-section .score-content .score-flex .text {
   flex: 1;
   padding: 10px 10px 10px 60px;
 }
+
 .journey-section .score-content .score-flex .text h3 {
+  margin-bottom: 20px;
   font-size: 1.6rem;
   font-weight: 500;
-  margin-bottom: 20px;
 }
+
 .journey-section .score-content .score-flex .text p {
+  margin-bottom: 15px;
   font-weight: 300;
   line-height: 1.6;
-  margin-bottom: 15px;
 }
+
 .journey-section .score-content .score-flex .text p.quote-text {
-  font-style: italic;
   color: #a3a3a3;
+  font-style: italic;
 }
+
 .journey-section .score-content .score-flex .text p.quote-text-2 {
+  color: #a3a3a3;
   margin-top: 30px;
   font-style: italic;
-  color: #a3a3a3;
 }
+
 .journey-section .score-content .score-flex .text .author {
-  font-weight: bold;
   font-style: italic;
+  font-weight: bold;
 }
 
 .faqs-section {
-  padding: 10px;
-  padding-bottom: 50px;
   color: #fff;
+  padding: 10px 10px 50px;
 }
+
 .faqs-section h1.faqs-title {
-  font-family: godOfWarFont;
-  color: #ffffff;
-  font-size: 3rem;
+  color: #fff;
+  text-align: center;
   margin-top: 80px;
   margin-bottom: 90px;
-  text-align: center;
+  font-family: godOfWarFont;
+  font-size: 3rem;
 }
+
 .faqs-section .faq-container {
+  flex-direction: column;
+  justify-content: center;
   margin-top: 50px;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  /* Style the faq-page panel. Note: hidden by default */
 }
+
 .faqs-section .faq-container .faq-page {
-  color: #ffffff;
-  background-color: #0f0f0f;
+  color: #fff;
   cursor: pointer;
-  padding: 30px 20px;
-  width: 60%;
+  background-color: #0f0f0f;
   border: none;
+  border-bottom: 1px solid #333;
   outline: none;
-  transition: 0.4s;
+  width: 60%;
   margin: auto;
-  border-bottom: 1px solid #333333;
+  padding: 30px 20px;
+  transition: all .4s;
 }
+
 .faqs-section .faq-container .faq-body {
-  margin: auto;
   width: 55%;
+  margin: auto;
   padding: auto;
 }
-.faqs-section .faq-container .active,
-.faqs-section .faq-container .faq-page:hover {
+
+.faqs-section .faq-container .active, .faqs-section .faq-container .faq-page:hover {
   background-color: #1d1f20;
 }
+
 .faqs-section .faq-container .faq-body {
-  padding: 0 10px;
-  background-color: #121314;
   color: #a3a3a3;
-  line-height: 1.6;
+  background-color: #121314;
   padding: 10px;
+  line-height: 1.6;
   display: none;
   overflow: hidden;
 }
+
 .faqs-section .faq-container .faq-page:after {
-  content: url(../images/plus-symbol-button.png);
-  /* Unicode character for "plus" sign (+) */
+  content: url("plus-symbol-button.1bc21deb.png");
   float: right;
   margin-left: 5px;
 }
-.faqs-section .faq-container .active::after {
-  content: url(../images/minus-symbol-button.png);
-  /* Unicode character for "minus" sign (-) */
+
+.faqs-section .faq-container .active:after {
+  content: url("minus-symbol-button.0321cada.png");
 }
 
 .footer {
-  color: #ffffff;
+  color: #fff;
   background-color: #0f0f0f;
-  padding: 10px 50px;
-  display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 50px;
+  display: flex;
 }
+
 .footer p {
   font-weight: 300;
 }
+
 .footer img {
   width: 150px;
 }
@@ -865,332 +958,412 @@ body {
 }
 
 .active-btn {
+  color: #fff;
   background-color: #0059ec;
-  color: #ffffff;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (width <= 768px) {
   .header .container {
     width: auto;
   }
+
   .header .container .navbar {
     display: none;
   }
+
   .hero-section {
     height: 120vh;
   }
+
   .hero-section .hero-container {
     width: auto;
   }
+
   .hero-section .hero-container h1 {
     text-align: center;
   }
+
   .hero-section .hero-container .hero-text {
-    width: 90%;
-    margin: auto;
     text-align: center;
-    margin-bottom: 30px;
+    width: 90%;
+    margin: auto auto 30px;
   }
+
   .hero-section .hero-container .review-container {
     width: 80%;
     margin: auto;
   }
+
   .hero-section .hero-container .genre {
-    width: 100%;
     text-align: center;
     border-radius: none;
+    width: 100%;
     margin-top: 30px;
     margin-bottom: 20px;
   }
+
   .hero-section .hero-container .cta-container {
     width: 80%;
     margin: auto;
   }
+
   .hero-section .hero-container .cta-container .play-btn-container .play-button img {
     width: 40px;
   }
+
   .hero-section .hero-container .cta-container .play-btn-container .cta-trailer {
-    margin-top: 0px;
+    margin-top: 0;
   }
+
   .hero-section .hero-container .cta-container .buy-btn {
-    font-size: 1.1rem;
     padding: 15px;
+    font-size: 1.1rem;
   }
+
   .bars {
     cursor: pointer;
-    display: block;
     z-index: 12;
+    display: block;
   }
+
   .story-section .story-text-container {
     width: 100%;
     padding: 30px 20px;
   }
+
   .story-section .story-text-container h1 {
-    font-size: 2rem;
     text-align: center;
+    font-size: 2rem;
   }
+
   .story-section .story-img-container {
     display: none;
   }
+
   .games-section .games-container {
     margin-top: 50px;
   }
+
   .games-section .games-container .games-title {
-    font-size: 2rem;
     margin: 20px auto;
+    font-size: 2rem;
   }
+
   .games-section .games-container .games-series {
     width: 100%;
     margin: 50px auto auto;
   }
+
   .games-section .games-container .games-series > div a div {
     padding-left: 5px;
     padding-right: 5px;
   }
+
   .games-section .games-container .games-series > div a div h2.title {
     font-size: 1.2rem;
   }
+
   .games-section .games-container .games-series > div a div p {
     text-align: right;
-    font-size: 0.8rem;
+    font-size: .8rem;
   }
+
   .games-section .games-container .games-series .hovering a img {
     display: none;
   }
+
   .pc-section {
-    width: 100%;
     flex-wrap: wrap-reverse;
     justify-content: center;
     align-items: center;
+    width: 100%;
     height: 130vh;
   }
+
   .pc-section .pc-video-container {
     margin-top: -20px;
   }
+
   .pc-section .pc-video-container iframe {
     width: 96vw;
   }
+
   .pc-section .pc-details-container {
-    width: 100%;
     border-radius: 0;
-    margin: 0;
-    margin-bottom: 20px;
+    width: 100%;
+    margin: 0 0 20px;
   }
+
   .pc-section .pc-details-container .pc-details-title {
+    text-align: center;
     font-size: 1.7rem;
-    text-align: center;
   }
+
   .pc-section .pc-details-container .pc-details-about-text {
-    width: 95%;
     text-align: center;
+    width: 95%;
     font-size: 1rem;
   }
+
   .pc-section .pc-details-container .pc-features-tilte {
     font-size: 1.2rem;
   }
+
   .pc-section .pc-details-container ul {
     margin-top: 0;
   }
+
   .journey-section {
     margin-bottom: 400px;
   }
+
   .journey-section h1.journey-section-title {
     font-size: 2rem;
   }
+
   .journey-section p.journey-section-title-text {
     width: 90%;
   }
+
   .journey-section .btns-container {
-    width: auto;
     border-radius: 0;
+    width: auto;
     overflow-x: scroll;
   }
+
   .journey-section .btns-container > button {
     flex: none;
     width: 120px;
   }
+
   .journey-section .btns-container::-webkit-scrollbar {
     display: none;
   }
+
   .journey-section .content {
     width: 100%;
     left: 0;
   }
+
   .journey-section .fanstatic-content .fanstatic-title {
     font-size: 2rem;
   }
+
   .journey-section .fanstatic-content p.fanstatic-text {
-    font-size: 0.9rem;
     width: 90%;
+    font-size: .9rem;
   }
+
   .journey-section .fanstatic-content .fanstatic-flex {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
+
   .journey-section .fanstatic-content .fanstatic-flex .image-container {
     width: 100%;
   }
+
   .journey-section .fanstatic-content .fanstatic-flex .text {
-    margin-top: 40px;
-    width: 100%;
     text-align: center;
+    width: 100%;
+    margin-top: 40px;
     padding: 10px;
   }
+
   .journey-section .father-content .father-title {
     font-size: 2rem;
   }
+
   .journey-section .father-content p.father-text {
-    font-size: 0.9rem;
     width: 90%;
+    font-size: .9rem;
   }
+
   .journey-section .father-content .father-flex {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
+
   .journey-section .father-content .father-flex .image-container {
     width: 100%;
   }
+
   .journey-section .father-content .father-flex .text {
-    margin-top: 40px;
-    width: 100%;
     text-align: center;
+    width: 100%;
+    margin-top: 40px;
     padding: 10px;
   }
+
   .journey-section .combat-content .combat-title {
     font-size: 2rem;
   }
+
   .journey-section .combat-content p.combat-text {
-    font-size: 0.9rem;
     width: 90%;
+    font-size: .9rem;
   }
+
   .journey-section .combat-content .combat-flex {
     flex-wrap: wrap-reverse;
     justify-content: center;
     align-items: center;
   }
+
   .journey-section .combat-content .combat-flex .image-container {
     width: 100%;
   }
+
   .journey-section .combat-content .combat-flex .text {
-    margin-top: 40px;
-    width: 100%;
     text-align: center;
+    width: 100%;
+    margin-top: 40px;
     padding: 10px;
   }
+
   .journey-section .exploration-content .exploration-title {
     font-size: 2rem;
   }
+
   .journey-section .exploration-content p.exploration-text {
-    font-size: 0.9rem;
     width: 90%;
+    font-size: .9rem;
   }
+
   .journey-section .exploration-content .exploration-flex {
     flex-wrap: wrap-reverse;
     justify-content: center;
     align-items: center;
   }
+
   .journey-section .exploration-content .exploration-flex .image-container {
     width: 100%;
   }
+
   .journey-section .exploration-content .exploration-flex .text {
-    margin-top: 40px;
-    width: 100%;
     text-align: center;
+    width: 100%;
+    margin-top: 40px;
     padding: 10px;
   }
+
   .journey-section .universe-content .universe-title {
     font-size: 2rem;
   }
+
   .journey-section .universe-content p.universe-text {
-    font-size: 0.9rem;
     width: 90%;
+    font-size: .9rem;
   }
+
   .journey-section .universe-content .universe-flex {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
+
   .journey-section .universe-content .universe-flex .image-container {
     width: 100%;
   }
+
   .journey-section .universe-content .universe-flex .text {
-    margin-top: 40px;
-    width: 100%;
     text-align: center;
+    width: 100%;
+    margin-top: 40px;
     padding: 10px;
   }
+
   .journey-section .creatures-content .creatures-title {
     font-size: 2rem;
   }
+
   .journey-section .creatures-content p.creatures-text {
-    font-size: 0.9rem;
     width: 90%;
+    font-size: .9rem;
   }
+
   .journey-section .creatures-content .creatures-flex {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
   }
+
   .journey-section .creatures-content .creatures-flex .image-container-1 {
-    margin-top: 15px;
     width: 100%;
     height: 300px;
+    margin-top: 15px;
   }
+
   .journey-section .creatures-content .creatures-flex .image-container-2 {
     width: 100%;
     height: 300px;
   }
+
   .journey-section .creatures-content p.quote-text {
-    margin-top: 40px;
-    width: 100%;
     text-align: center;
+    width: 100%;
+    margin-top: 40px;
     padding: 10px;
   }
+
   .journey-section .score-content .score-title {
     font-size: 2rem;
   }
+
   .journey-section .score-content p.score-text {
-    font-size: 0.9rem;
     width: 90%;
+    font-size: .9rem;
   }
+
   .journey-section .score-content .score-flex {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
+
   .journey-section .score-content .score-flex .image-container {
     width: 100%;
   }
+
   .journey-section .score-content .score-flex .text {
-    margin-top: 40px;
-    width: 100%;
     text-align: center;
+    width: 100%;
+    margin-top: 40px;
     padding: 10px;
   }
+
   .faqs-section {
-    margin-top: 100px;
     height: 1000px;
+    margin-top: 100px;
     margin-bottom: 100px;
   }
+
   .faqs-section h1.faqs-title {
     font-size: 2rem;
   }
+
   .faqs-section .faq-container .faq-page {
     width: 90%;
   }
+
   .faqs-section .faq-container .faq-body {
     width: 80%;
   }
+
   .footer {
     padding: 10px;
   }
+
   .footer p {
-    font-size: 0.7rem;
+    font-size: .7rem;
   }
+
   .footer img {
     width: 100px;
   }
 }
+
+/*# sourceMappingURL=index.e8265c92.css.map */
