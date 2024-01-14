@@ -1,6 +1,6 @@
 # God of War Landing Page
 
-![God of War Logo](./images/GOW-preview.png)
+![God of War Logo](./src/images/GOW-preview.png)
 
 ## Overview
 
